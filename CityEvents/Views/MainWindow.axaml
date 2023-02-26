@@ -20,21 +20,23 @@
 
 	<Window.DataTemplates>
 		<DataTemplate DataType="{x:Type localM:CityEvent}">
-			<Grid ColumnDefinitions="400" RowDefinitions="200, 200">
-				<Image Grid.Row="0" Height="200" Width="200" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
-				<StackPanel Grid.Row="1">
-					<TextBlock Text="{Binding Header}"/>
+			<Border BorderBrush="Gainsboro" BorderThickness="1">
+			<Grid ColumnDefinitions="400" RowDefinitions="300, 220">
+				<Image Grid.Row="0" Height="300" Width="300" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+				<StackPanel Grid.Row="1" HorizontalAlignment="Center">
+					<TextBlock Text="{Binding Header}" FontWeight="Bold" FontSize="25"/>
 					<Grid RowDefinitions="Auto" ColumnDefinitions="Auto, Auto">
-						<TextBlock Text="Дата: " Grid.Column="0"/>
-						<TextBlock Text="{Binding Date}" Grid.Column="1"/>
+						<TextBlock Text="Дата: " Grid.Column="0" FontWeight="Bold"/>
+						<TextBlock Text="{Binding Date}" Grid.Column="1" FontWeight="Bold"/>
 					</Grid>
-						<TextBlock Text="{Binding Description}" TextWrapping="Wrap"/>
+						<TextBlock Text="{Binding Description}" Width="250" TextWrapping="Wrap" HorizontalAlignment="Left"/>
 					<Grid RowDefinitions="Auto" ColumnDefinitions="Auto, Auto">
-						<TextBlock Text="Цена: " Grid.Column="0"/>
-						<TextBlock Text="{Binding Price}" Grid.Column="1"/>
+						<TextBlock Text="Цена: " Grid.Column="0" FontWeight="Bold"/>
+						<TextBlock Text="{Binding Price}" Grid.Column="1" FontWeight="Bold"/>
 					</Grid>
 				</StackPanel>
 			</Grid>
+			</Border>
 		</DataTemplate>
 	</Window.DataTemplates>
 	
@@ -47,9 +49,13 @@
 				</Grid>
 			</TabItem.Header>
 			<ScrollViewer VerticalScrollBarVisibility="Visible">
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems}"/>
-			</WrapPanel>
+				<ItemsControl Items="{Binding CItems}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
 			</ScrollViewer>
 		</TabItem>
 		<TabItem>
@@ -59,9 +65,15 @@
 					<TextBlock Text="Спорт" Grid.Column="1" VerticalAlignment="Center"/>
 				</Grid>
 			</TabItem.Header>
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems2}"/>
-			</WrapPanel>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding CItems2}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
 		</TabItem>
 		<TabItem>
 			<TabItem.Header>
@@ -70,9 +82,15 @@
 					<TextBlock Text="Культура" Grid.Column="1" VerticalAlignment="Center"/>
 				</Grid>
 			</TabItem.Header>
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems3}"/>
-			</WrapPanel>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding CItems3}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
 		</TabItem>
 		<TabItem>
 			<TabItem.Header>
@@ -81,9 +99,15 @@
 					<TextBlock Text="Экскурсии" Grid.Column="1" VerticalAlignment="Center"/>
 				</Grid>
 			</TabItem.Header>
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems4}"/>
-			</WrapPanel>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding CItems4}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel />
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
 		</TabItem>
 		<TabItem>
 			<TabItem.Header>
@@ -92,9 +116,15 @@
 					<TextBlock Text="Образ жизни" Grid.Column="1" VerticalAlignment="Center"/>
 				</Grid>
 			</TabItem.Header>
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems5}"/>
-			</WrapPanel>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding CItems5}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
 		</TabItem>
 		<TabItem>
 			<TabItem.Header>
@@ -103,9 +133,15 @@
 					<TextBlock Text="Вечеринка" Grid.Column="1" VerticalAlignment="Center"/>
 				</Grid>
 			</TabItem.Header>
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems6}"/>
-			</WrapPanel>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding CItems6}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
 		</TabItem>
 		<TabItem>
 			<TabItem.Header>
@@ -114,9 +150,15 @@
 					<TextBlock Text="Образование" Grid.Column="1" VerticalAlignment="Center"/>
 				</Grid>
 			</TabItem.Header>
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems7}"/>
-			</WrapPanel>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding CItems7}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
 		</TabItem>
 		<TabItem>
 			<TabItem.Header>
@@ -125,9 +167,15 @@
 					<TextBlock Text="Онлайн" Grid.Column="1" VerticalAlignment="Center"/>
 				</Grid>
 			</TabItem.Header>
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems8}"/>
-			</WrapPanel>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding CItems8}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
 		</TabItem>
 		<TabItem>
 			<TabItem.Header>
@@ -136,9 +184,15 @@
 					<TextBlock Text="Шоу" Grid.Column="1" VerticalAlignment="Center"/>
 				</Grid>
 			</TabItem.Header>
-			<WrapPanel>
-				<ItemsControl Items="{Binding CItems9}"/>
-			</WrapPanel>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+				<ItemsControl Items="{Binding CItems9}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<WrapPanel/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				</ItemsControl>
+			</ScrollViewer>
 		</TabItem>
 	</TabControl>
 

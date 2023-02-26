@@ -15,7 +15,7 @@
         <boolean>false</boolean>
         <boolean>false</boolean>
         <boolean>false</boolean>
-        <boolean>false</boolean>
+        <boolean>true</boolean>
       </categories>
       <ForChildren>true</ForChildren>
       <Sport>false</Sport>
@@ -25,15 +25,44 @@
       <Party>false</Party>
       <Education>false</Education>
       <Online>false</Online>
-      <Show>false</Show>
+      <Show>true</Show>
     </Category>
     <Price>300</Price>
   </CityEvent>
   <CityEvent>
     <Header>Зоопарк</Header>
-    <Description>Описание отсутствует</Description>
+    <Description>Один из крупнейших зоопарков России. Занимает площадь 65 га, в нём содержится около 11 000 особей 770 видов. Более 350 видов занесены...</Description>
     <Image>Assets/pic/zoo.jpg</Image>
     <Date>Ежедневно с 10:00 до 19:00</Date>
+    <Category>
+      <categories>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>true</ForChildren>
+      <Sport>false</Sport>
+      <Culture>true</Culture>
+      <Excursions>true</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>150</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Спектакль 'Синий трактор'</Header>
+    <Description>Развивающее музыкальное шоу песенных хитов «Синего Трактора». Все дети любят «Синий трактор». А кто не любит – тот просто ещё не виде...</Description>
+    <Image>Assets/pic/blue_tractor.jpg</Image>
+    <Date>11/04/2023 11:00</Date>
     <Category>
       <categories>
         <boolean>true</boolean>
@@ -44,7 +73,7 @@
         <boolean>false</boolean>
         <boolean>false</boolean>
         <boolean>false</boolean>
-        <boolean>false</boolean>
+        <boolean>true</boolean>
       </categories>
       <ForChildren>true</ForChildren>
       <Sport>false</Sport>
@@ -54,15 +83,286 @@
       <Party>false</Party>
       <Education>false</Education>
       <Online>false</Online>
+      <Show>true</Show>
+    </Category>
+    <Price>800</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Парк чудес Галилео</Header>
+    <Description>Время нахождения в Парке не ограничено, но по одному билету можно сделать только один круг. Среднее время прогулки по Парку - 1 час.</Description>
+    <Image>Assets/pic/galileo.jpg</Image>
+    <Date>Ежедневно с 10:00 до 20:00</Date>
+    <Category>
+      <categories>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>true</ForChildren>
+      <Sport>false</Sport>
+      <Culture>true</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>true</Education>
+      <Online>false</Online>
       <Show>false</Show>
+    </Category>
+    <Price>1200</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Парк культуры и отдыха
+Заельцовский</Header>
+    <Description>Парк для отдыха всей семьей</Description>
+    <Image>Assets/pic/park.jpg</Image>
+    <Date>Ежедневно</Date>
+    <Category>
+      <categories>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>true</ForChildren>
+      <Sport>false</Sport>
+      <Culture>true</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>true</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Гонка героев</Header>
+    <Description>Гонка Героев - это крутой забег с препятствиями в твоем городе! Драйвовое приключение для каждого - ты испытаешь свои силы и поверишь...</Description>
+    <Image>Assets/pic/race_of_heroes.jpg</Image>
+    <Date>09/09/2023 10:00</Date>
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>true</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>true</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>3000</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Сибирь - Автомобилист</Header>
+    <Description>Хоккейный матч Сибирь - Автомобилист</Description>
+    <Image>Assets/pic/sibir.jpg</Image>
+    <Date>26/02/2023 16:30</Date>
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>true</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>true</Show>
+    </Category>
+    <Price>5000</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Дальше</Header>
+    <Description>Формат спектакля — рок-концерт, состоящий из современных музыкальных отрывков, атмосферных монологов и диалогов с использованием авто...</Description>
+    <Image>Assets/pic/next.jpg</Image>
+    <Date>14/03/2023 19:00</Date>
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>true</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>true</Show>
+    </Category>
+    <Price>500</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Экскурсия театральных
+впечатлений в Музыкальном
+театре</Header>
+    <Description>Новосибирский музыкальный театр приглашает всех желающих совершить путешествие по театральному зданию и получить новые театральные вп...</Description>
+    <Image>Assets/pic/excurs.jpg</Image>
+    <Date>31/03/2023 16:00</Date>
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>true</Culture>
+      <Excursions>true</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>true</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>300</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>КОРОЛЕВА ТАНЦПОЛА!
+ПОДЗЕМКА! 18+</Header>
+    <Description>В программе:
+• FREAK &amp; DANCE SHOW;
+• DJ'S; MC; ФОТО; ВИДЕО;
+• СПЕЦИАЛЬНОЕ МЕНЮ В БАРЕ
+• ДИДЖЕИ НЕ ТОЛЬКО ИГРАЮТ, НО И ПЬЮТ, И ТАНЦУЮТ...</Description>
+    <Image>Assets/pic/podzemka.jpg</Image>
+    <Date>07/03/2023</Date>
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>true</Lifestyle>
+      <Party>true</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>true</Show>
+    </Category>
+    <Price>400</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Диско 90-х</Header>
+    <Description>Супер фестиваль популярной музыки «Диско 90-х» представляет лучшее из золотой коллекции хитов 90-х и 2000-х годов. Одно из главных му...</Description>
+    <Image>Assets/pic/disko.jpg</Image>
+    <Date>25/05/2023</Date>
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>true</Lifestyle>
+      <Party>true</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>500</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Научно-популярное ток-шоу
+"Суд над Супергероем"</Header>
+    <Description>Преступник в прошлом, ныне супергерой, популярный персонаж комиксов и фильмов Человек-муравей предстанет перед научным судом. При исп...</Description>
+    <Image>Assets/pic/super.jpg</Image>
+    <Date>10/04/2023 12:00</Date>
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>true</boolean>
+        <boolean>true</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>true</Education>
+      <Online>true</Online>
+      <Show>true</Show>
     </Category>
     <Price>150</Price>
   </CityEvent>
   <CityEvent>
-    <Header>Item3</Header>
-    <Description>Описание отсутствует</Description>
-    <Image />
-    <Date />
+    <Header>Диагностическая сессия
+"Личная Сила"</Header>
+    <Description>Получи пошаговый план личностного развития совершенно бесплатно!</Description>
+    <Image>Assets/pic/lek.jpg</Image>
+    <Date>28/03/2023 17:00</Date>
     <Category>
       <categories>
         <boolean>false</boolean>
@@ -71,8 +371,8 @@
         <boolean>false</boolean>
         <boolean>false</boolean>
         <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>true</boolean>
         <boolean>false</boolean>
       </categories>
       <ForChildren>false</ForChildren>
@@ -81,17 +381,17 @@
       <Excursions>false</Excursions>
       <Lifestyle>false</Lifestyle>
       <Party>false</Party>
-      <Education>false</Education>
-      <Online>false</Online>
+      <Education>true</Education>
+      <Online>true</Online>
       <Show>false</Show>
     </Category>
     <Price>0</Price>
   </CityEvent>
   <CityEvent>
-    <Header>Item4</Header>
-    <Description>Описание отсутствует</Description>
-    <Image />
-    <Date />
+    <Header>Прямой эфир в ВК с Пермьстат</Header>
+    <Description>По итогам каждого года юрлица отчитываются о том, куда и сколько денег вложили. Специалист Пермьстат расскажет, кому и в какие сроки ...</Description>
+    <Image>Assets/pic/efir.jpg</Image>
+    <Date>14/02/2023 23:00</Date>
     <Category>
       <categories>
         <boolean>false</boolean>
@@ -101,36 +401,7 @@
         <boolean>false</boolean>
         <boolean>false</boolean>
         <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-      </categories>
-      <ForChildren>false</ForChildren>
-      <Sport>false</Sport>
-      <Culture>false</Culture>
-      <Excursions>false</Excursions>
-      <Lifestyle>false</Lifestyle>
-      <Party>false</Party>
-      <Education>false</Education>
-      <Online>false</Online>
-      <Show>false</Show>
-    </Category>
-    <Price>0</Price>
-  </CityEvent>
-  <CityEvent>
-    <Header>Item5</Header>
-    <Description>Описание отсутствует</Description>
-    <Image />
-    <Date />
-    <Category>
-      <categories>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
+        <boolean>true</boolean>
         <boolean>false</boolean>
       </categories>
       <ForChildren>false</ForChildren>
@@ -140,94 +411,7 @@
       <Lifestyle>false</Lifestyle>
       <Party>false</Party>
       <Education>false</Education>
-      <Online>false</Online>
-      <Show>false</Show>
-    </Category>
-    <Price>0</Price>
-  </CityEvent>
-  <CityEvent>
-    <Header>Item6</Header>
-    <Description>Описание отсутствует</Description>
-    <Image />
-    <Date />
-    <Category>
-      <categories>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-      </categories>
-      <ForChildren>false</ForChildren>
-      <Sport>false</Sport>
-      <Culture>false</Culture>
-      <Excursions>false</Excursions>
-      <Lifestyle>false</Lifestyle>
-      <Party>false</Party>
-      <Education>false</Education>
-      <Online>false</Online>
-      <Show>false</Show>
-    </Category>
-    <Price>0</Price>
-  </CityEvent>
-  <CityEvent>
-    <Header>Item7</Header>
-    <Description>Описание отсутствует</Description>
-    <Image />
-    <Date />
-    <Category>
-      <categories>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-      </categories>
-      <ForChildren>false</ForChildren>
-      <Sport>false</Sport>
-      <Culture>false</Culture>
-      <Excursions>false</Excursions>
-      <Lifestyle>false</Lifestyle>
-      <Party>false</Party>
-      <Education>false</Education>
-      <Online>false</Online>
-      <Show>false</Show>
-    </Category>
-    <Price>0</Price>
-  </CityEvent>
-  <CityEvent>
-    <Header>Item8</Header>
-    <Description>Описание отсутствует</Description>
-    <Image />
-    <Date />
-    <Category>
-      <categories>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-        <boolean>false</boolean>
-      </categories>
-      <ForChildren>false</ForChildren>
-      <Sport>false</Sport>
-      <Culture>false</Culture>
-      <Excursions>false</Excursions>
-      <Lifestyle>false</Lifestyle>
-      <Party>false</Party>
-      <Education>false</Education>
-      <Online>false</Online>
+      <Online>true</Online>
       <Show>false</Show>
     </Category>
     <Price>0</Price>
