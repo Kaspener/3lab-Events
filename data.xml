@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCityEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CityEvent>
+    <Header>Чебурашка (фильм)</Header>
+    <Description>Иногда, чтобы вернуть солнце и улыбки в мир взрослых, нужен один маленький ушастый герой. Мохнатого непоседливого зверька из далекой ...</Description>
+    <Image>Assets/pic/cheburashka.jpg</Image>
+    <Date>29/02/2023 18:00</Date>
+    <Category>
+      <categories>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>true</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>300</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Зоопарк</Header>
+    <Description>Описание отсутствует</Description>
+    <Image>Assets/pic/zoo.jpg</Image>
+    <Date>Ежедневно с 10:00 до 19:00</Date>
+    <Category>
+      <categories>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>true</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>150</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Item3</Header>
+    <Description>Описание отсутствует</Description>
+    <Image />
+    <Date />
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Item4</Header>
+    <Description>Описание отсутствует</Description>
+    <Image />
+    <Date />
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Item5</Header>
+    <Description>Описание отсутствует</Description>
+    <Image />
+    <Date />
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Item6</Header>
+    <Description>Описание отсутствует</Description>
+    <Image />
+    <Date />
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Item7</Header>
+    <Description>Описание отсутствует</Description>
+    <Image />
+    <Date />
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </CityEvent>
+  <CityEvent>
+    <Header>Item8</Header>
+    <Description>Описание отсутствует</Description>
+    <Image />
+    <Date />
+    <Category>
+      <categories>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+        <boolean>false</boolean>
+      </categories>
+      <ForChildren>false</ForChildren>
+      <Sport>false</Sport>
+      <Culture>false</Culture>
+      <Excursions>false</Excursions>
+      <Lifestyle>false</Lifestyle>
+      <Party>false</Party>
+      <Education>false</Education>
+      <Online>false</Online>
+      <Show>false</Show>
+    </Category>
+    <Price>0</Price>
+  </CityEvent>
+</ArrayOfCityEvent>

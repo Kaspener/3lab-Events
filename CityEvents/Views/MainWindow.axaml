@@ -1,0 +1,145 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:CityEvents.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:localM="clr-namespace:CityEvents.Models"
+        mc:Ignorable="d" d:DesignWidth="1650" d:DesignHeight="720"
+		Width="1650" Height="720"
+        x:Class="CityEvents.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="CityEvents">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+	<Window.Resources>
+		<vm:BitmapAssetValueConverter x:Key="variableImage"/>
+	</Window.Resources>
+
+	<Window.DataTemplates>
+		<DataTemplate DataType="{x:Type localM:CityEvent}">
+			<Grid ColumnDefinitions="400" RowDefinitions="200, 200">
+				<Image Grid.Row="0" Height="200" Width="200" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+				<StackPanel Grid.Row="1">
+					<TextBlock Text="{Binding Header}"/>
+					<Grid RowDefinitions="Auto" ColumnDefinitions="Auto, Auto">
+						<TextBlock Text="Дата: " Grid.Column="0"/>
+						<TextBlock Text="{Binding Date}" Grid.Column="1"/>
+					</Grid>
+						<TextBlock Text="{Binding Description}" TextWrapping="Wrap"/>
+					<Grid RowDefinitions="Auto" ColumnDefinitions="Auto, Auto">
+						<TextBlock Text="Цена: " Grid.Column="0"/>
+						<TextBlock Text="{Binding Price}" Grid.Column="1"/>
+					</Grid>
+				</StackPanel>
+			</Grid>
+		</DataTemplate>
+	</Window.DataTemplates>
+	
+	<TabControl TabStripPlacement="Top">
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon1.png" Grid.Column="0"/>
+					<TextBlock Text="Для детей" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<ScrollViewer VerticalScrollBarVisibility="Visible">
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems}"/>
+			</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon2.png" Grid.Column="0"/>
+					<TextBlock Text="Спорт" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems2}"/>
+			</WrapPanel>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon3.png" Grid.Column="0"/>
+					<TextBlock Text="Культура" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems3}"/>
+			</WrapPanel>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon4.png" Grid.Column="0"/>
+					<TextBlock Text="Экскурсии" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems4}"/>
+			</WrapPanel>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon5.png" Grid.Column="0"/>
+					<TextBlock Text="Образ жизни" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems5}"/>
+			</WrapPanel>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon6.png" Grid.Column="0"/>
+					<TextBlock Text="Вечеринка" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems6}"/>
+			</WrapPanel>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon7.png" Grid.Column="0"/>
+					<TextBlock Text="Образование" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems7}"/>
+			</WrapPanel>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon8.png" Grid.Column="0"/>
+					<TextBlock Text="Онлайн" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems8}"/>
+			</WrapPanel>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto">
+					<Image Source="/Assets/icon9.png" Grid.Column="0"/>
+					<TextBlock Text="Шоу" Grid.Column="1" VerticalAlignment="Center"/>
+				</Grid>
+			</TabItem.Header>
+			<WrapPanel>
+				<ItemsControl Items="{Binding CItems9}"/>
+			</WrapPanel>
+		</TabItem>
+	</TabControl>
+
+</Window>
